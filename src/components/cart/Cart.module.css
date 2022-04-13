@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+.cartmodal{
+  font-family: 'Roboto', sans-serif;
+  left: 10%;
+  width:80%;
+}
+
+.cartmodalcontent{
+  width: 100%;
+  height: 90vh;
+}
+
+.btn{
+  height: 5%;
+  margin-top: 1%;
+  margin-left:15px;
+
+}
+
+
+.close{
+  font-size: 1rem;
+  cursor: pointer;
+  color: rgba(37, 37, 37, 0.856);
+  border: none;
+  background-color: white;
+}
+
+.title {
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cartcontent{
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.shippinginfo {
+ height: 100%;
+ width: 50%;
+ display: flex;
+ flex-direction: column;
+ height: max-content;
+ overflow:scroll;
+}
+
+.cartitemcontainer {
+  height: 100%;
+  padding-left: 3%;
+  width: 45%;
+}
+
+.cartitemlist {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cartitemlist  p{
+  padding-left: 5%;
+}
+
+.cartitems {
+  height: 100%;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  overflow: hidden;
+  overflow-y: scroll;
+
+}
+  
+.total {
+    padding-left: 5%;
+    padding-right: 10%;
+    width: 80%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    height: 20%;
+}
+  
+  
+  .button {
+    font: inherit;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    padding: 0.3rem 3.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 30px;
+    margin-top: 1rem;
+    width: 50%; 
+  }
+
+  .button:disabled{
+    margin-top: 0.4rem;
+    border-color: darkgray;
+    background-color: darkgray;
+  }
+  
+  .button:hover,
+  .button:active {
+    background: #034baa;
+    border-color: #034baa;
+  }
+
+  .completed {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 35%;
+    top:20%;
+    font-size: 2rem;
+  }
+
+
+  @media only screen and (max-width: 480px){
+
+    .cartcontent{
+      flex-direction: column;
+      align-items: center;
+    }
+    .title {
+      font-size: 1rem;
+    }
+    .cartitemcontainer {
+      height: 45%;
+      padding-left: 3%;
+      padding-right: 3%;
+      width:94%;
+    }
+
+    .shippinginfo {
+
+      padding-left: 5%;
+      padding-right: 5%;
+      width: 90%;
+      padding-bottom: 5%;
+     }
+
+     .total {
+      font-size: 1rem;
+     
+    }
+
+    .cartitemlist{
+      height: 80%;
+
+    }
+
+    .button {
+      padding: 0.3rem 0.5rem;
+      
+    }
+
+    .btn{
+      height: 3%;
+      margin-top: 3%;
+      margin-left:3%;
+
+    }
+  
+    
+
+  }

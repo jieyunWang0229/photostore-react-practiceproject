@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+.aumodal{
+    position:fixed;
+    left: 30%;
+    width: 40%;
+}
+.content {
+    font-family: 'Roboto', sans-serif;
+    padding: 5%;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.picture{
+  width: 100%;
+  height: 10%;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: center;
+  
+}
+.picture img{
+  width: 10%;
+}
+
+.form{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form .title {
+  width: 100%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.form .title h1{
+  font-size: 1.4rem;
+}
+
+.control {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .control label {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .control input {
+    font: inherit;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    width: 80%;
+  }
+ 
+  .invalid label {
+    color: #ca3e51;
+  }
+  
+  .invalid input {
+    border-color: #aa0b20;
+    background-color: #ffeff1;
+    margin-bottom: 0.5rem;
+  }
+
+
+  .actions{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 5%;
+  }
+
+  .actions button{
+    width: 70%;
+    font-size:1rem ;
+    margin-top: 1.5rem;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    padding: 0.4rem 2.5rem;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .actions button:hover,
+  .actions button:active {
+    background: #034baa;
+    border-color: #034baa;
+  }
+
+  .errmsg{
+    color: #aa0b20;
+  }
+
+  @media only screen and (max-width: 480px){
+    .aumodal{
+      position:fixed;
+      left: 10%;
+      width: 80%;
+  }
+
+  }

@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+
+
+
+.header {
+    font-family: 'Bai Jamjuree', sans-serif;
+    position: sticky;
+    top:0;
+    width: 90%;
+    height: 80px;
+    padding: 10px 5%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+
+.logo{
+  width: 10%;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+  }
+
+.navmenu {
+    width: 70%;
+    height: 100%;
+    display:contents;
+    justify-content: center;
+}
+  
+.navmenu ul {
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: space-evenly;
+}
+  
+.navmenu li {
+    line-height: 100%;
+}
+  
+.navmenu a {
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+  
+.navmenu a:hover,
+.navmenu a:active,
+.navmenu a.active {
+    color: #034baa;
+    padding-bottom: 0.25rem;
+    border-bottom: 4px solid #034baa;
+  }
+
+.btn{
+   width: 12%;
+   display: flex;
+}
+
+.signbtn {
+    width: 100%;
+    font: inherit;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    padding: 0.5rem 0.3rem;
+    cursor: pointer;
+    font-size: 0.8rem;
+    border-radius: 10px;
+}
+  
+.signbtn:hover,
+.signbtn:active {
+    background: #034baa;
+    border-color: #034baa;
+}
+  
+.btn2{
+  width: 20%;
+  display: flex;
+}
+ 
+.cartbtn{
+    width: 50%;
+    margin-right: 10%;
+    display: flex;
+}
+
+.profileicon{
+    width: 40%;
+    align-self: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.profileicon:hover{
+    color: #034baa;
+}
+
+.dropmenu{
+    position: absolute;
+    top: 12vh;
+    right: 8%;
+    width: 200px;
+    height: max-content;
+}
+
+.mobliemenu{
+  display: none;
+}
+
+@media only screen and (max-width: 480px){
+    .header{
+      top: 0;
+      padding: 0;
+      padding-left: 5%;
+      padding-right: 5%;
+      height: 10vh;
+      position: sticky;
+      width: 90%;
+    }
+
+    .logo{
+      width: 20%;
+    }
+
+    .logo img {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+    }
+
+    .btn {
+      padding-left: 30%;
+      width: 40%;
+    }
+
+    .btn2{
+      padding-left: 20%;
+      width: 60%;
+    }
+
+    .navmenu {
+       display: none;
+     }
+
+    .mobliemenu{
+      font-family: 'Bai Jamjuree', sans-serif;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+      height: 10vh;
+      position:fixed;
+      bottom: 0;
+      z-index: 5;
+    }
+    .mobliemenu a{
+      background-color: white;
+      text-decoration: none;
+      line-height: 100%;
+      font-size: 1rem;
+      color: black;
+    }
+    .mobliemenu a:hover,
+    .mobliemenu a:active,
+    .mobliemenu a.active {
+    color: #034baa;
+  }
+
+   
+   
+
+    
+  }

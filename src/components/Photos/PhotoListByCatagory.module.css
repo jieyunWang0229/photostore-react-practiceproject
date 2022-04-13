@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+.content{ 
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.title{
+    padding-left: 5%;
+    width: 20%;
+    text-align:left;
+    font-size: 2.8rem;
+    text-transform: capitalize;
+}
+
+.photos{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 60%;
+  padding-left: 5%;
+}
+
+.item{
+    text-decoration: none;
+    color: black;
+    width:100%;
+    position: relative;
+}
+
+.item img{
+    width:100%;
+}
+
+.item .name{
+   position: absolute;
+   font-size: 2rem;
+   color: whitesmoke;
+   z-index: 10;
+   opacity: 0;
+   transition: ease-out 1s;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+ 
+}
+.item .price{
+    position: absolute;
+    top: 90%;
+    right:5%;
+    font-size: 2rem;
+    color: whitesmoke;
+    z-index: 10;
+    opacity: 0;
+    transition: ease-out 1s;
+}
+
+.item:hover img{
+    filter: blur(3px);
+}
+
+.item:hover .name{
+    opacity: 100%;
+    transition: ease-in 0.5s;
+}
+
+.item:hover .price{
+    opacity: 100%;
+    transition: ease-in 0.5s;
+}
+
+@media only screen and (max-width: 480px){
+    .content{ 
+        flex-direction: column;
+    }
+
+    .title {
+        margin-bottom: 5vh;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 90%;
+    }
+
+    .photos{
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+
+    .item .name{
+        font-size: 1.3rem;
+    }
+
+    .item .price{
+        font-size: 1rem;
+    }
+
+}
+

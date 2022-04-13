@@ -1,0 +1,58 @@
+
+.orderitem{
+    list-style: none;
+    margin-bottom: 5%;
+    margin-right: 3%;
+    
+}
+
+.iteminfo{
+    display:flex;
+    justify-content:space-between;
+}
+
+.name{
+    font-size: 1.4rem;
+    width: 40%;
+}
+
+.amount{
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.price{
+    font-size: 1.2rem;
+}
+
+
+@media only screen and (max-width: 480px){
+
+
+    .orderitem{
+       
+        margin-right: 0;
+        
+    }
+    .name{
+        font-size: 1.2rem;
+        width:100%;
+    }
+
+    .amount{
+        font-size: 0.8rem;
+    }
+    
+    .price{
+        font-size: 0.8rem;
+    }
+    
+
+    .iteminfo{
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+}

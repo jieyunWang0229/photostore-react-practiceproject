@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+.button {
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    background-color: white;
+    stroke: none;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 25px;
+  }
+  
+  .button:hover,
+  .button:active {
+    color: white;
+    background-color: white;
+  }
+
+  
+  .icon{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+
+  .button:hover .icon,
+  .button:active .icon {
+    color: #034baa;
+  }
+
+  
+  .badge {
+    border-bottom: solid black 2px;
+    border-color: black;
+    padding: 0.25rem 1rem;
+    font-weight: bold;
+  }
+  
+  .button:hover .badge,
+  .button:active .badge {
+    color:#034baa;
+    border-bottom:solid #034baa 2px;
+    
+  }
+  
+  .bump {
+    animation: bump 300ms ease-out;
+  }
+  
+  @keyframes bump {
+    0% {
+      transform: scale(1);
+    }
+    10% {
+      transform: scale(0.9);
+    }
+    30% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(1.15);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

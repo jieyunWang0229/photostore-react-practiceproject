@@ -1,0 +1,35 @@
+.order{
+    background-color:rgb(235, 231, 231);
+    margin-bottom: 3%;
+    padding: 1%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.id{
+    font-size: 1.2rem;
+    height: 3vh;
+    line-height: 100%;
+    border-bottom: 2px solid rgb(204, 204, 204) ;
+}
+
+.orderitemsdetail{
+    width: 100%;
+}
+
+.summary{
+    width: 95%;
+    text-align: end;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 480px){
+    .summary{
+        font-size: 1.2rem;
+    }
+
+    .itemslist{
+        padding-inline-start: 3%;
+    }
+
+}

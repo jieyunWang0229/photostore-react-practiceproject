@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+.cartitem {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding: 0.5rem 0;
+    margin: 0.8rem 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.iteminfo{
+  width: 80%;
+}
+  
+ .cartitem h4 {
+    margin: 0 0 0.5rem 0;
+    color: #363636;
+ }
+  
+  .summary {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .price {
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: black;
+  }
+  
+  .amount {
+    font-weight: bold;
+    font-size: 0.6rem;
+    border: 1px solid #ccc;
+    padding: 0.25rem 0.75rem;
+    border-radius: 6px;
+    color: #363636;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+  }
+  
+  
+
+  @media only screen and (max-width: 480px){
+
+    .cartitem {
+      width: calc(100% - 1rem);
+      padding: 1rem 0.5rem;
+      height: fit-content;
+    }
+
+    .iteminfo{
+      width: 70%;
+    }
+    .actions button{
+      border: none;
+      background-color: white;
+      font-size: 1rem;
+    }
+    .cartitem h4 {
+      font-size: 0.8rem;
+      margin: 0 0 0.3rem 0;
+      
+   }
+    .summary {
+      width:70%;
+      
+    }
+    .price{
+      font-size: 0.6rem;
+    }
+
+    .amount {
+  
+      font-size: 0.5rem;
+  
+      padding: 0.25rem 0.5rem;
+    
+    }
+    .actions{
+      width: 30%;
+      justify-content: space-around;
+
+    }
+   
+    
+  }
