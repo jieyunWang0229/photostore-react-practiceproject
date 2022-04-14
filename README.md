@@ -1,6 +1,34 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The photostore website application main to display the photography works of hanzhengyi Pan. 
+
+# A REACT PRCTICE PROJECT
+
+The appliction is built with react and fire-base dummy back-end. 
+I built this prpject after i finished one online react course. For practice i use the knowledge about functional component, custom react hook, redux and connect data base of react to build the website. In addition to this, i use framer-motion to achieve some simple animation effect on website.
+
+The application is already deployed with the address https://phzy123.com/.
+The project is designed with the responsive UI layout which can be viewed both on table and phone device.
+
+## Main Function
+
+### Authentication
+User can log in or sign up on the website.
+![image](https://user-images.githubusercontent.com/96969695/163300628-fd9e4a27-a824-4988-8bdc-8c9e52b79346.png)
+
+
+### Shop
+User can add the photography works to the shopping cart and make the order. 
+![image](https://user-images.githubusercontent.com/96969695/163301823-9f7fbd39-15a3-426c-be52-4f4ea684a750.png)
+
+![image](https://user-images.githubusercontent.com/96969695/163301770-40796d25-32e9-4498-9d4e-79272b2001c4.png)
+
+
+User can check order history in "my order" page.
+![image](https://user-images.githubusercontent.com/96969695/163301949-195221e0-27dd-4cd4-9853-f315d722fc15.png)
+
+
+
+
 
 ## Available Scripts
 
@@ -45,21 +73,6 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
