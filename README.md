@@ -1,5 +1,5 @@
 
-The photostore website application main to display the photography works of hanzhengyi Pan. 
+The photostore website application main to display the photography works. 
 
 # A REACT PRCTICE PROJECT
 
