@@ -1,10 +1,7 @@
-
-The photostore website application main to display the photography works. 
-
 # A REACT PRCTICE PROJECT
 
 The appliaction is built with react and fire-base dummy back-end. 
-I built this prpject after finished one online react course. For practice I use the knowledge about functional component, custom react hook, redux and connect data base of react to build the website. In addition to this, I use framer-motion to achieve some simple animation effect on website.
+I built this prpject after finished one online react course. For practice I use the knowledge about functional component, custom react hook, redux and connect data base  to build the website. In addition to this, I use framer-motion to achieve animation effect on website.
 
 The application is already deployed with the address https://phzy123.com/.
 The project is designed with the responsive UI layout which can be viewed both on table and phone device.
